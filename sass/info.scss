@@ -1,0 +1,91 @@
+/*fixa foton*/
+
+.info {
+	width: 100vw;
+    height: 496px;
+	margin:auto;
+    top: 50px;
+    bottom: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    display: flex;   
+}
+
+.first-section {
+    height: 685px;
+	position: relative;
+}
+
+.info-left {
+	width: 100%;
+	max-width: 560px;
+	margin-top: 45px;
+}
+
+.info__right {
+	width: 605px;
+	align-items: flex-end;
+	flex-direction: column;
+    display: flex;
+}
+
+.info-background {
+	width: 100%;
+	height: 685px;
+	z-index: -1;
+	position: absolute;
+}
+
+.btn__main {
+    color: #FFFFFF;
+    background: $secondary-color;
+	width: 228px;
+	height: 63px;
+	font-size: 14px;
+	font-weight: 300;
+    font-family: 'Aleo', sans-serif;
+    text-align: center;
+	letter-spacing: 0.32px;
+	border-radius: 0px;
+	border: solid 1px white;
+	cursor: pointer;
+	border: none;
+	box-shadow: none;
+	margin-top: 45px;
+	&:hover {
+		border-bottom: solid 1px $main-txt-color;
+	}
+}
+
+.btn__getstarted:hover {
+ 	border: 1px solid $main-txt-color;
+}
+
+.btn-link {
+	justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+
+.reverview {
+	align-self: center;
+}
+
+@media screen and (max-width: 500px) {
+
+	.info-left {
+		width: 100%;
+		max-width: 300px;
+		margin-top: 45px;
+		justify-content: center;
+		align-items: center;
+        display: flex;
+	}
+
+	.info__right {
+		display: none;
+	}	
+}
