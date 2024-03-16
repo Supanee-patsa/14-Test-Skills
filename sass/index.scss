@@ -1,0 +1,26 @@
+$main-txt-color: #FFFFFF;
+$secondary-color: #5574FA;
+
+
+body {
+	background: #FFFFFF;
+    width: 100vw;
+	margin: 0px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow-x: hidden;
+    border: none;
+    display: flex;
+}
+
+/*imports*/
+
+@import 'header';
+@import 'info';
+@import 'second-section';
+@import 'third-section';
+@import 'fourth-section';
+@import 'end-section';
+@import 'footer';
+@import 'text';
