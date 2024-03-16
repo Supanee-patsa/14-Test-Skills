@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bhromaon</title>
+	<link rel="reset" href="styles/css/reset.css">
+	<link rel="stylesheet" href="styles/css/index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b859aba923.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<script src="script.js"></script>
+	<header class="header">
+		<img src="images/mountain.png" alt="Picture of a person standing on a mountain top" class="hero">
+		<div class="header__content">
+			<div class="header__first-section">
+				<h1 class="main-title">BHROMAON</h1><p class="second-title">Safe Travel Anywhere</p>
+			</div>
+			<div class="header__second-section">
+				<form class="search-field"> 
+			 		<input class="text-area" id="name" placeholder="Search Your Travel Destination">
+				 	<button type="Search" class="search-button">SEARCH <i class="fa-solid fa-magnifying-glass"></i></button>
+				</form>
+			</div>
+			<div class="header__third-section">
+				<p class="scroll">Scroll down</p>
+				<i class="fa-solid fa-chevron-down"></i>
+			</div>
+		</div>
+		<div class="header__navbar">
+			<div><p class="navbar__title">Bhromaon</p></div>
+ 			<div class="navbar__end">
+ 				<nav class="navbar__menu">
+	 				<ul>
+	 					<li><a href="#" class="who">WHO WE ARE</a></li>
+		 				<li><a href="#" class="what">WHAT WE DO</a></li>
+		 				<li><a href="#" class="travel">TRAVEL WITH US</a></li>
+		 				<li><a href="#" class="contact">CONTACT US</a></li>
+	 				</ul>
+	 			</nav>
+			</div>	
+			<div class="header__navbar-mobile" style="float:right;">
+				<button onclick="toggleDropdown()" class="fa-solid fa-ellipsis"></button>
+					<div id="dropdown_button" class="menu__items-mobile" style="right:0;">
+						<a href="#" class="home">WHO WE ARE</a>
+						  <a href="#" class="works">WHAT WE DO</a>
+						  <a href="#" class="services">TRAVEL WITH US</a>
+						  <a href="#" class="contacts">CONTACT US</a>
+					</div>
+			</div>
+		</div>	
+	</header>
